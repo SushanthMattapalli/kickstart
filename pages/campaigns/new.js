@@ -17,6 +17,8 @@ class CampaignNew extends Component{
         this.setState({loading: true, errorMessage: ''});
         try {
             const accounts = await web3.eth.getAccounts();
+            console.log("Before calling createCampaign method of factory contract");
+            console.log("accunts[0] is :"+accounts[0]);
             await factory.methods
                 .createCampaign(this.state.minimumContribution)
                 .send({
@@ -24,6 +26,7 @@ class CampaignNew extends Component{
                 });
             Router.pushRoute('/');
         } catch(err) {
+            console.log(err);
             this.setState({errorMessage: err.message});
         }
         this.setState({loading: false});

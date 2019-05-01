@@ -1,3 +1,11 @@
 Sushanths-MacBook-Pro:ethereum sushanth$ node deploy.js
 Account to be used for deployment 0x2afE013D33d684A650E699064b87fb064c4E2359
 contract deployed at address:  0x3F78DFE32aFbdE7ED8B4b4aF2352AA33D1860400
+
+New deployment details:
+++++++++++++++++++++++++++++
+Sushanths-MacBook-Pro:ethereum sushanth$ node deploy.js
+Account to be used for deployment 0x2afE013D33d684A650E699064b87fb064c4E2359
+contract deployed at address:  0xaC5933f6c856C5Bb2577c06284905dF06F9852F1
+Sushanths-MacBook-Pro:ethereum sushanth$
+
